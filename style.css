@@ -4,12 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 img{
     max-width: 100%;
 }
 
 .container-large{
-    width: ;
+    width: 60%;
     margin: auto;
 }
 
@@ -18,7 +19,7 @@ img{
 }
 
 .container-small{
-    width: ;
+    width: 50%;
     margin: auto;
 }
 
@@ -64,19 +65,19 @@ img{
 }
 /* #endregion-general */
 
-
-
 /* #region-debug */
-.debug{
-    border-style: dashed solid black;
+.debug * {
+    border: 1px dashed;
 }
 
-/* blocchi {
-    min-height: 50px;
-} */
+[class|="row"] {
+    background-color: yellow;
+    min-height: 200px;
+}
 
-/* blocchi {
-    background-color: ........;
-} */
-
+[class|="col"] {
+    background-color: rgb(255, 0, 0);
+    min-height: 100px;
+    margin: 1rem;
+}
 /* #endregion-debug */
