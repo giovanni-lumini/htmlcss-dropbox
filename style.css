@@ -11,7 +11,10 @@ img{
 .container-large{
     width: ;
     margin: auto;
+}
 
+.container-total{
+    width: 100%;
 }
 
 .container-small{
