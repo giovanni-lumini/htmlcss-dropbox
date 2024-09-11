@@ -1,7 +1,11 @@
 :root{
     --tob-button-blue: #0061ff;
+    --tob-bg-light-blue:#b4d0e7;
 }
 
+.text-align{
+    text-align: center;
+}
 
 /* #region-general */
 *{
@@ -18,9 +22,9 @@ a {
     text-decoration: none;
 }
 
-img{
+/* img{
     max-width: 100%;
-}
+} */
 
 .container-large{
     width: 60%;
@@ -86,6 +90,24 @@ img{
 .col-12{
     width: 100%;
 }
+
+.blue-button-small{
+    background-color: var(--tob-button-blue);
+    padding: 0.3rem 0.6rem;
+}
+
+.blue-button-big{
+    background-color: var(--tob-button-blue);
+    padding: 0.5rem 1rem;
+}
+
+.pad-bottom-2{
+    padding-bottom: 2rem;
+}
+
+.text-white{
+    color: white;
+}
 /* #endregion-general */
 
 /* #region-debug */
@@ -119,12 +141,25 @@ header a {
 .header-nav{
     padding: 1rem;
 }
+/* #endregion-header */
 
-.blue-button-small{
-    background-color: var(--tob-button-blue);
-    padding: 0.3rem 0.6rem;
+/* #region-main */
+main h1{
+    font-size: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.arrow-size{
+    font-size: 3rem;
+}
+
+.nedd-to-work{
+    background-color: var(--tob-bg-light-blue);
 }
 
 
 
-/* #endregion-header */
+
+
+/* #endregion-main */
