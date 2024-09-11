@@ -40,6 +40,11 @@ a {
     display: flex;
 }
 
+.row-jc-between{
+    display: flex;
+    justify-content: space-between;
+}
+
 .flex-align-items{
     display: flex;
     align-items: center;
@@ -52,6 +57,10 @@ a {
 
 .text-align{
     text-align: center;
+}
+
+.text-end{
+    text-align: end;
 }
 
 .col-1{
@@ -119,6 +128,10 @@ a {
 
 .margin2-l-r{
     margin: 0rem 2rem;
+}
+
+.margin2-top{
+    margin-top: 2rem;
 }
 
 .text-white{
