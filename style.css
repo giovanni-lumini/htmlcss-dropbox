@@ -186,6 +186,14 @@ a {
     padding-bottom: 4rem;
 }
 
+.pad-top-bottom-5{
+    padding: 5rem 0rem;
+}
+
+.pad-top-1{
+    padding-top: 1rem;
+}
+
 .pad-top-2{
     padding-top: 2rem;
 }
@@ -382,15 +390,24 @@ font-size: 2rem;
 /* #endregion-logos */
 
 /* #region-Dropbox-in-your-company */
-
-
 .h2-dark-red{
     color: var(--tob-bg-dark-red);
 }
 
 .bg-dp-in-your-company{
     background: var(--tob-bg-light-blue);
-    padding: 5rem 0rem;
+}
+/* #endregion-Dropbox-in-your-company */
+
+/* #region-faq */
+
+.faq-border-top{
+    border-top: 2px solid lightgrey;
 }
 
-/* #endregion-Dropbox-in-your-company */
+.faq-border-bottom{
+    border-bottom: 2px solid lightgrey;
+}
+
+
+/* #endregion-faq */
