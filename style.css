@@ -38,6 +38,12 @@ a {
 
 .row{
     display: flex;
+    margin: 0rem -1rem;
+    flex-wrap: wrap;
+}
+
+[class^="col-"]{
+    padding: 1rem;
 }
 
 .row-jc-between{
@@ -134,7 +140,11 @@ a {
 }
 
 .pad-bottom-3{
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+.pad-bottom-4{
+    padding-bottom: 4rem;
 }
 
 .pad-top-2{
@@ -216,8 +226,8 @@ main h1{
 
 .p-abs{
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -2rem;
+    top: 1rem;
 }
 /* #endregion-main-jumbo */
 
@@ -233,14 +243,14 @@ a.underline{
 }
 
 .business-title{
-padding-bottom: 2rem;
+padding-bottom: 3rem;
+font-size: 2rem;
 }
 
 .imput-period{
     padding-right: 2rem;
 }
 
-    
 .imput-period-padding{
     padding-bottom: 2rem;
 }
@@ -261,6 +271,8 @@ padding-bottom: 2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+
 /* #endregion-main-business */
 
 /* region-main-partner-dropbox */
