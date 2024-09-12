@@ -23,7 +23,7 @@ a {
 } */
 
 .container-large{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -32,7 +32,7 @@ a {
 }
 
 .container-small{
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
@@ -275,7 +275,3 @@ font-size: 2rem;
 
 /* #endregion-main-business */
 
-/* region-main-partner-dropbox */
-
-
-/* end-region-main-partner-dropbox */
