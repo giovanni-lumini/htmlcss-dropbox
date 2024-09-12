@@ -424,6 +424,16 @@ font-size: 2rem;
 .faq-border-bottom{
     border-bottom: 2px solid lightgrey;
 }
+
+.answer{
+    display: none;
+    padding-top: 1rem;
+}
+
+.question:hover + .answer{
+    display: block;
+}
+
 /* #endregion-faq */
 
 
