@@ -312,8 +312,12 @@ header a {
     padding: 1rem;
 }
 
-.hover-nav:hover {
-    text-decoration-line: underline;
+.header-nav-hover{
+    padding: 1rem;
+}
+
+.header-nav-hover:hover {
+    border-bottom: 1px solid black;
 }
 
 /* #endregion-header*/
