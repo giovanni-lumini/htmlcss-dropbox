@@ -1,6 +1,13 @@
 :root{
     --tob-button-blue: #0061ff;
     --tob-bg-light-blue:#b4d0e7;
+    --tob-bg-light-green:#a2d39b;
+    --tob-bg-red:#ff1c1c;
+    --tob-bg-dark-red:#61082b;
+    --tob-bg-blue:#0093ce;
+    --tob-bg-dark-blue:#0d2481;
+    --tob-bg-yellow:#ffd830;
+    --tob-bg-light-gray:#f5f5f5;
 }
 
 /* #region-general */
@@ -39,6 +46,11 @@ a {
 .row{
     display: flex;
     margin: 0rem -1rem;
+    flex-wrap: wrap;
+}
+
+.row-b{
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -81,28 +93,50 @@ a {
 .col-4{
     width: calc((100% / 12) * 4);
 }
+
+.b-col-4{
+    width: calc((100% / 12) * 4);
+}
+
 .col-5{
     width: calc((100% / 12) * 5);
 }
 .col-6{
     width: 50%;
 }
+
+.b-col-6{
+    width: 50%;
+}
+
 .col-7{
     width: calc((100% / 12) * 7);
 }
 .col-8{
     width: calc((100% / 12) * 7);
 }
+
+.b-col-8{
+    width: calc((100% / 12) * 7);
+}
+
 .col-9{
     width: calc((100% / 12) * 7);
 }
+
 .col-10{
     width: calc((100% / 12) * 7);
 }
+
 .col-11{
     width: calc((100% / 12) * 7);
 }
+
 .col-12{
+    width: 100%;
+}
+
+.b-col-12{
     width: 100%;
 }
 
@@ -170,10 +204,47 @@ a {
 .text-white{
     color: white;
 }
+
+.ratio-1-1{
+    aspect-ratio: 1 / 1;
+}
+
+.bg-light-green{
+    background-color: var(--tob-bg-light-green) ;
+}
+
+.bg-dark-red{
+    background-color: var(--tob-bg-dark-red) ;
+}
+
+.bg-blue{
+    background-color: var(--tob-bg-blue) ;
+}
+
+.bg-red{
+    background-color: var(--tob-bg-red) ;
+}
+
+.bg-light-blue{
+    background-color:var(--tob-bg-light-blue) ;
+}
+
+.bg-dark-blue{
+    background-color:var(--tob-bg-dark-blue) ;
+}
+
+.bg-yellow{
+    background-color:var(--tob-bg-yellow) ;
+}
+
+.bg-light-gray{
+    background-color:var(--tob-bg-light-gray);
+}
+
 /* #endregion-general */
 
 /* #region-debug */
-/* .debug * {
+.debug * {
     border: 1px dashed;
 }
 
@@ -274,4 +345,16 @@ font-size: 2rem;
 
 
 /* #endregion-main-business */
+
+/* #region-logos */
+
+.logo-small{
+    width: 50%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #endregion-logos */
 
