@@ -64,6 +64,11 @@ a {
     justify-content: space-between;
 }
 
+.row-jc-center{
+    display: flex;
+    justify-content: center;
+}
+
 .flex-align-items{
     display: flex;
     align-items: center;
@@ -198,6 +203,10 @@ a {
     padding-top: 2rem;
 }
 
+.pad-top-3{
+    padding-top: 3rem;
+}
+
 .pad-left-2{
     padding-left: 2rem;
 }
@@ -230,6 +239,10 @@ a {
     aspect-ratio: 1 / 1;
 }
 
+.bg-black{
+    background-color: black ;
+}
+
 .bg-light-green{
     background-color: var(--tob-bg-light-green) ;
 }
@@ -260,6 +273,10 @@ a {
 
 .bg-light-gray{
     background-color:var(--tob-bg-light-gray);
+}
+
+.font-size-07{
+    font-size: 0.7rem;
 }
 
 /* #endregion-general */
@@ -400,7 +417,6 @@ font-size: 2rem;
 /* #endregion-Dropbox-in-your-company */
 
 /* #region-faq */
-
 .faq-border-top{
     border-top: 2px solid lightgrey;
 }
@@ -408,6 +424,23 @@ font-size: 2rem;
 .faq-border-bottom{
     border-bottom: 2px solid lightgrey;
 }
-
-
 /* #endregion-faq */
+
+
+/* #region-footer */
+.space-border-bottom-big-white{
+    height: 1rem;
+    width: 6rem;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 2rem;
+}
+
+.earth-foot{
+    padding-right: 0.5rem;
+}
+
+.ita-foot{
+    padding-right: 0.3rem;
+}
+
+/* #endregion-footer */
