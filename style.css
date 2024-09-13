@@ -50,6 +50,10 @@ a {
     flex-wrap: wrap;
 }
 
+.row-business{
+    display: flex;
+}
+
 .row-b{
     display: flex;
     flex-wrap: wrap;
@@ -156,6 +160,11 @@ a {
     padding: 0.5rem 1rem;
 }
 
+.button-blue-business{
+    background-color: var(--tob-button-blue);
+    padding: 0.5rem 1rem;
+}
+
 .white-button-big{
     background-color: white;
     padding: 0.5rem 1rem;
@@ -207,8 +216,16 @@ a {
     padding-top: 3rem;
 }
 
+.pad-left-05{
+    padding-left: 0.5rem;
+}
+
 .pad-left-2{
     padding-left: 2rem;
+}
+
+.pad-right-1{
+    padding-right: 1rem;
 }
 
 .pad-right-12{
@@ -233,6 +250,14 @@ a {
 
 .text-black{
     color: rgb(0, 0, 0);
+}
+
+.text-grey{
+    color: grey;
+}
+
+.fa-check{
+    color: var(--tob-button-blue);
 }
 
 .ratio-1-1{
@@ -390,6 +415,9 @@ font-size: 2rem;
     margin-bottom: 2rem;
 }
 
+.height-100{
+    height: 100%;
+}
 
 /* #endregion-main-business */
 
